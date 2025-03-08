@@ -3,7 +3,9 @@ import TodoItem from "./TodoItem";
 import { NewContext } from "./NewContext";
 
 export default function TodoList(){
+
     let {todos} = useContext(NewContext)
+    
     return(
         <ul className="list-reset">
             {
